@@ -10,7 +10,7 @@ function App() {
 
     return(
         
-            <div style={{padding: 20}}>
+    <ChakraProvider theme={theme}>
                 <LoginFormTest/>
                 <PostItem/>
                 <Video20/>
@@ -18,8 +18,18 @@ function App() {
                 <Video40/>
                 <Video41/>
                 <ClickTest/>
-                
-            </div>
+      <SplitWithImage/>
+      <CaptionCarousel/>
+      <WithSpeechBubbles/>
+      <ProductSimpleList/>
+      <ThreeTierPricing/>
+      <Simple/>
+
+      <AvatarWithRipple/>
+      <BasicStatistics/>
+      <LargeWithAppLinksAndSocial/>
+    </ChakraProvider>
+
        
     )
   }
