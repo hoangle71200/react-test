@@ -11,13 +11,13 @@ function App() {
     return(
         
     <ChakraProvider theme={theme}>
-                <LoginFormTest/>
-                <PostItem/>
-                <Video20/>
-                <Video31/>
-                <Video40/>
-                <Video41/>
-                <ClickTest/>
+                //<LoginFormTest/>
+                //<PostItem/>
+                //<Video20/>
+                //<Video31/>
+                //<Video40/>
+                //<Video41/>
+                //<ClickTest/>
       <SplitWithImage/>
       <CaptionCarousel/>
       <WithSpeechBubbles/>
