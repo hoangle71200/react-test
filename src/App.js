@@ -10,16 +10,26 @@ function App() {
 
     return(
         
-            <div style={{padding: 20}}>
-                <LoginFormTest/>
-                <PostItem/>
-                <Video20/>
-                <Video31/>
-                <Video40/>
-                <Video41/>
-                <ClickTest/>
-                
-            </div>
+    <ChakraProvider theme={theme}>
+                //<LoginFormTest/>
+                //<PostItem/>
+                //<Video20/>
+                //<Video31/>
+                //<Video40/>
+                //<Video41/>
+                //<ClickTest/>
+      <SplitWithImage/>
+      <CaptionCarousel/>
+      <WithSpeechBubbles/>
+      <ProductSimpleList/>
+      <ThreeTierPricing/>
+      <Simple/>
+
+      <AvatarWithRipple/>
+      <BasicStatistics/>
+      <LargeWithAppLinksAndSocial/>
+    </ChakraProvider>
+
        
     )
   }
